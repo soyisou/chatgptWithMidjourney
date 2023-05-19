@@ -119,12 +119,21 @@ export function SideBar(props: { className?: string }) {
       }`}
     >
       <div className={styles["sidebar-header"]}>
-        <div className={styles["sidebar-title"]}>ChatGPT Next</div>
-        <div className={styles["sidebar-sub-title"]}>
-          Build your own AI assistant.
+        <div className={styles["sidebar-title"]}>
+          <a href="http://himygpt.cn" style={{ textDecoration: 'none' }}>
+              Hi My ChatGPT
+          </a>
         </div>
+        <div className={styles["sidebar-sub-title"]} style={{width: '145px',marginTop: '20px' }}>
+          <div>调用OpenAI官方接口</div>
+          <div>通过API_KEY使用GPT</div>
+          <a href="https://faka.himygpt.cn/#/goods?goods_id=11">低价购买API_KEY网址</a>
+        </div>
+
         <div className={styles["sidebar-logo"] + " no-dark"}>
-          <ChatGptIcon />
+          <a href="https://github.com/soyisou/ChatGPT-Next-Web/blob/main/app/QQqun.jpg" className={styles["sidebar-logo"] + " no-dark"}>
+            <ChatGptIcon />
+          </a>
         </div>
       </div>
 
