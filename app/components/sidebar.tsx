@@ -120,7 +120,7 @@ export function SideBar(props: { className?: string }) {
     >
       <div className={styles["sidebar-header"]}>
         <div className={styles["sidebar-title"]}>
-          <a href="https://faka.himygpt.cn/#/goods?goods_id=11" style={{ textDecoration: 'none' }}>
+          <a href="http://himygpt.cn" style={{ textDecoration: 'none' }}>
               Hi My ChatGPT
           </a>
         </div>
