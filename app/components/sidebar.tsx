@@ -131,7 +131,7 @@ export function SideBar(props: { className?: string }) {
         </div>
 
         <div className={styles["sidebar-logo"] + " no-dark"}>
-          <a href="https://github.com/soyisou/ChatGPT-Next-Web/blob/main/app/QQqun.jpg" className={styles["sidebar-logo"] + " no-dark"}>
+          <a href="https://www.soyisou.cn/wp-content/uploads/2023/05/QQqun.jpg" className={styles["sidebar-logo"] + " no-dark"}>
             <ChatGptIcon />
           </a>
         </div>
@@ -183,7 +183,7 @@ export function SideBar(props: { className?: string }) {
             </Link>
           </div>
           <div className={styles["sidebar-action"]}>
-            <a href={REPO_URL} target="_blank">
+            <a href="http://himygpt.cn" target="_blank">
               <IconButton icon={<GithubIcon />} shadow />
             </a>
           </div>
